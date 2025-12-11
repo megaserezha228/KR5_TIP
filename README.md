@@ -26,7 +26,7 @@
 <img width="310" height="58" alt="image" src="https://github.com/user-attachments/assets/6c87f39c-480e-4ec8-bfd5-528846540f23" />
 
 ## Повторное использование сайта
-Сайт запоминает последнее оставшееся число
+Программа запоминает последнее оставшееся число
 До выхода с сайта:
 <img width="1082" height="838" alt="image" src="https://github.com/user-attachments/assets/a997dbe4-a611-42be-a3a0-ff9738035f41" />
 

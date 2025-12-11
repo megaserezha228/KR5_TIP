@@ -1,13 +1,13 @@
 # KR5_TIP
 # Запускаем npm start
-При запуске выдается хост, по которому заходим
+При запуске пишется хост, по которому заходим
 <img width="576" height="53" alt="image" src="https://github.com/user-attachments/assets/3d6da627-dae1-41c9-be8e-42160e226854" />
 
-При запуске сайта выдается GET оповещение о входе на сайт
+При запуске приложения выдается GET оповещение о входе
 <img width="305" height="23" alt="image" src="https://github.com/user-attachments/assets/943ae0ce-c251-4f00-8a69-7f00efa676a8" />
 
-# Действия на сайте
-Так выглядит сайт:
+# Действия в приложении
+Так выглядит интерфейс:
 <img width="1090" height="1270" alt="image" src="https://github.com/user-attachments/assets/c7e44f07-ae1c-4258-8e43-5d3ebeba1488" />
 
 При нажатии "+1" добавляется 1 к счетчику
@@ -25,7 +25,7 @@
 Все это так же отображается в консоли
 <img width="310" height="58" alt="image" src="https://github.com/user-attachments/assets/6c87f39c-480e-4ec8-bfd5-528846540f23" />
 
-## Повторное использование сайта
+## Повторное использование
 Программа запоминает последнее оставшееся число
 До выхода с сайта:
 <img width="1082" height="838" alt="image" src="https://github.com/user-attachments/assets/a997dbe4-a611-42be-a3a0-ff9738035f41" />

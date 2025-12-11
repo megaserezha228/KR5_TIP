@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #f5f5f5;
+  min-height: 100vh;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.counter {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  min-width: 320px;
+  max-width: 500px;
+  border: 1px solid #e0e0e0;
+}
+
+.counter h1 {
+  color: #333;
+  margin-bottom: 25px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.count-display {
+  font-size: 42px;
+  font-weight: bold;
+  color: #333;
+  margin: 25px 0;
+  padding: 15px;
+  background: #fafafa;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  background: white;
+  transition: all 0.2s ease;
+  min-width: 80px;
+}
+
+.btn:hover:not(:disabled) {
+  background: #f8f8f8;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-increment {
+  color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-decrement {
+  color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-reset {
+  color: #6c757d;
+  border-color: #6c757d;
+}
+
+.loading {
+  color: #666;
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.history-section {
+  margin-top: 30px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.history-header h3 {
+  font-size: 16px;
+  color: #555;
+}
+
+.btn-clear {
+  padding: 5px 10px;
+  font-size: 12px;
+  color: #dc3545;
+  background: none;
+  border: 1px solid #dc3545;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.history-list {
+  list-style: none;
+}
+
+.history-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  margin: 5px 0;
+  background: #f9f9f9;
+  border-radius: 4px;
+  border-left: 3px solid #667eea;
+}
+
+.history-action {
+  font-weight: 500;
+  color: #333;
+}
+
+.history-value {
+  font-weight: bold;
+  color: #667eea;
+}
+
+.history-time {
+  font-size: 12px;
+  color: #888;
+}
+
+.no-history {
+  color: #999;
+  font-style: italic;
+  text-align: center;
+  padding: 20px;
+}
+
+.api-info {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f0f8ff;
+  border-radius: 6px;
+  font-size: 12px;
+  color: #555;
+  text-align: left;
+}
+
+.api-info p {
+  margin: 5px 0;
+}
